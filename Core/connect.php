@@ -18,10 +18,10 @@ class Connect
     public function __construct()
     {
         // Paramètres de connexion à la base de données
-        define('SERVER', 'michely31.mysql.db'); // Adresse du serveur de base de données
-        define('USER', 'michely31'); // Nom d'utilisateur de la base de données
-        define('PASSWORD', 'Tolosa31'); // Mot de passe de la base de données
-        define('BASE', 'michely31'); // Nom de la base de données
+        define('SERVER', '###'); // Adresse du serveur de base de données
+        define('USER', '###'); // Nom d'utilisateur de la base de données
+        define('PASSWORD', '###'); // Mot de passe de la base de données
+        define('BASE', '###'); // Nom de la base de données
 
         try {
             // Connexion à la base de données en utilisant les informations fournies
