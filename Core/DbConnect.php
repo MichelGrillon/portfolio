@@ -13,10 +13,10 @@ class DbConnect
     protected $request;
 
     // Paramètres de connexion à la base de données
-    const SERVER = 'michely31.mysql.db'; // Adresse du serveur de base de données
-    const USER = 'michely31'; // Nom d'utilisateur de la base de données
-    const PASSWORD = 'Tolosa31'; // Mot de passe de la base de données
-    const BASE = 'michely31'; // Nom de la base de données
+    const SERVER = '###'; // Adresse du serveur de base de données
+    const USER = '###'; // Nom d'utilisateur de la base de données
+    const PASSWORD = '###'; // Mot de passe de la base de données
+    const BASE = '###'; // Nom de la base de données
 
     // Constructeur de la classe
     public function __construct()
