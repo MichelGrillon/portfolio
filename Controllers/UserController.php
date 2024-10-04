@@ -46,7 +46,7 @@ class UserController extends Controller
             $this->userModel->createUser($email, $password, $username);
 
             // Redirection après l'inscription
-            header("Location: https://michel-grillon.fr/projects/php/portfolio/index.php?login=auth");
+            header("Location: /index.php?login=auth");
             exit;
         } catch (\Exception $e) {
             // Gestion de l'erreur
@@ -68,12 +68,12 @@ class UserController extends Controller
     public function login()
     {
         // Utilisation d'un chemin absolu complet pour inclure auth.php
-        include_once 'https://michel-grillon.fr/projects/php/portfolio/Core/auth.php';
+        include_once '/../Core/auth.php';
     }
 
     public function logout()
     {
         // Utilisation d'un chemin absolu complet pour inclure logout.php
-        include_once 'https://michel-grillon.fr/projects/php/portfolio/Core/logout.php';
+        include_once '/../Core/logout.php';
     }
 }
