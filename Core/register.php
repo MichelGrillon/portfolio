@@ -38,7 +38,7 @@ try {
     session_regenerate_id();
 
     // Redirection vers la page d'accueil après l'enregistrement
-    header("Location: https://michel-grillon.fr/projects/php/portfolio/index.php?login=auth");
+    header("Location: /index.php?login=auth");
     exit;
 } catch (Exception $e) {
     // En cas d'erreur lors de l'exécution de la requête, afficher un message d'erreur
