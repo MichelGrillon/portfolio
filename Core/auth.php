@@ -36,7 +36,7 @@ try {
             // Création de la session
             $_SESSION['username'] = $user->username;
             // Redirection vers la page d'accueil des créations après connexion réussie
-            header("Location: https://michel-grillon.fr/projects/php/portfolio/public/index.php?page=home");
+            header("Location: /../public/index.php?page=home");
             exit;
         } else {
             echo "Mot de passe incorrect";
